@@ -12,6 +12,7 @@
   </head>
   <body>
     <header id="header" class="w-100 min-vh-100 position-relative flex-shrink-0 d-flex flex-column">
+      <!-- NAVBAR -->
       <nav class="position-fixed bg-body-transparent d-flex justify-content-between align-items-center">
         <div class="image">
           <img class="logo d-flex justify-content-center align-items-center flex-shrink-0" src="/public/assets/images/navbar-brand.png" alt="logo" />
@@ -19,7 +20,7 @@
         <div class="content d-flex justify-content-between align-items-center">
           <ul class="list-unstyled d-flex align-items-center justify-content-center mt-auto mb-auto">
             <li><a href="#landing-page">Home</a></li>
-            <li><a href="#card">Tentang Acara</a></li>
+            <li><a href="#cards">Tentang Acara</a></li>
             <li><a href="#carousel">Galeri</a></li>
             <li><a href="#article">Berita</a></li>
           </ul>
@@ -28,15 +29,17 @@
           <button class="registration d-flex justify-content-center align-items-center border-0"><a class="text-white text-decoration-none" href="https://event.detik.com/" target="_blank">Registrasi</a></button>
         </div>
       </nav>
-      <div class="logo-container">
-        <img src="/public/assets/images/logo-event 2.png" class="logo d-flex justify-content-center align-items-center flex-shrink-0" alt="logo" />
+      <!-- HERO -->
+      <div class="logo-container align-items-end">
+        <img src="/public/assets/images/logo-event 2.png" class="logo d-flex justify-content-start align-items-start flex-shrink-0" alt="logo" />
       </div>
-      <button type="button" class="tentang d-inline-flex justify-content-center align-items-center text-white text-center">TENTANG ACARA</button>
+      <button type="button" class="tentang d-inline-flex justify-content-start align-items-start text-white text-center">TENTANG ACARA</button>
     </header>
     <main>
-      <section class="card" id="card">
+      <!-- CARD -->
+      <section class="cards border-0" id="card">
         <div class="daftar gap-5 d-flex">
-          <div class="cardKanan">
+          <div class="cardKiri">
             <div class="card d-flex flex-column align-items-start rounded-5 border-0">
               <div class="overflow-hidden rounded-4 mx-auto"><img src="/public/assets/images/map.png" class="map mx-auto" alt="map" width="518" height="388" /></div>
               <div class="cardBody">
@@ -45,7 +48,7 @@
               </div>
             </div>
           </div>
-          <div class="cardKiri d-flex flex-column text-white">
+          <div class="cardKanan d-flex flex-column text-white">
             <div class="gratisCard d-flex flex-column align-items-start rounded-5 border-0">
               <h3 class="cardTitle">GRATIS DAN BERHADIAH</h3>
               <p class="gratisText">Pendaftaran gratis! Ajak keluarga anda dan menangkan hadiah total puluhan juta rupiah doorprize menarik!</p>
@@ -70,9 +73,25 @@
           </div>
         </div>
         <div class="buttonDaftar">
-          <button class="daftarButton"><a class="text-white text-decoration-none" href="https://event.detik.com/" target="_blank">DAFTAR SEKARANG</a></button>
+          <button class="daftarButton d-flex text-align-center mx-auto border-0"><a class="text-white text-decoration-none" href="https://event.detik.com/" target="_blank">DAFTAR SEKARANG</a></button>
         </div>
       </section>
+      <!-- DUKUNG -->
+      <section class="dukung d-flex flex-column justify-content-center align-items-center gap-3 text-white">
+        <h3 class="text-align-center">DIDUKUNG OLEH</h3>
+        <marquee behavior="scroll" direction="left" class="marquee d-flex flex-row text-nowrap overflow-hidden" scrollamount="20" loop="infinite">
+          <article class="marqueeImg">
+            <img src="/public/assets/images/alpha-jwc.png" alt="Image 1" />
+            <img src="/public/assets/images/alpha-jwc 1 (1).png" alt="Image 2" />
+            <img src="/public/assets/images/alpha-jwc 1.png" alt="Image 3" />
+            <img src="/public/assets/images/alpha-jwc 1 (3).png" alt="Image 5" />
+            <img src="/public/assets/images/alpha-jwc 1 (4).png" alt="Image 6" />
+            <img src="/public/assets/images/alpha-jwc 1 (5).png" alt="Image 7" />
+            <img src="/public/assets/images/alpha-jwc 1 (6).png" alt="Image 8" />
+          </article>
+        </marquee>
+      </section>
+      <!-- CAROUSEL -->
     </main>
   </body>
 </html>

@@ -13,8 +13,7 @@ header {
 
 nav {
   top: 46px;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(37.8%);
   width: 1194px;
   padding: 15px 20px;
   box-shadow: 0px 1px 8px 0px rgba(29, 28, 28, 0.2);
@@ -104,33 +103,35 @@ nav .image img {
 }
 
 .daftar {
-  width: 1200px;
-  height: 712px;
+  width: 1194px;
+  height: 612px;
   margin: 137px 450px;
+  margin-bottom: 0px;
 }
 
-.cardKanan .card {
+.cardKiri .card {
   padding: 32px;
   gap: 15px;
   background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
   width: 582px;
   height: 611px;
+  margin-right: -20px;
   transition: background 0.25s;
 }
 
-.cardKanan .card:hover {
+.cardKiri .card:hover {
   background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
 }
 
-.cardKanan .card img {
+.cardKiri .card img {
   transition: transform 0.5s ease;
 }
 
-.cardKanan .card:hover img {
+.cardKiri .card:hover img {
   transform: scale(1.1);
 }
 
-.cardKanan h3 {
+.cardKiri h3 {
   font-size: 48px;
   font-style: italic;
   font-weight: 900;
@@ -138,36 +139,77 @@ nav .image img {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.cardKiri .gratisCard {
+.cardKanan .gratisCard {
   width: 582px;
   padding: 32px;
   background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
   margin-bottom: 27px;
 }
 
-.cardKiri .gratisCard:hover {
+.cardKanan .gratisCard:hover {
   background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
 }
 
-.cardKiri .cardTitle {
+.cardKanan .cardTitle {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 36px;
   font-style: italic;
   font-weight: 900;
 }
 
-.cardKiri .cardSpesial {
+.cardKanan .cardSpesial {
   background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
 }
 
-.cardKiri .cardSpesial:hover {
+.cardKanan .cardSpesial:hover {
   background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
 }
 
-.cardKiri .cardSpesial img {
+.cardKanan .cardSpesial img {
   transition: transform 0.5s ease;
 }
 
-.cardKiri .cardSpesial:hover img {
+.cardKanan .cardSpesial:hover img {
   transform: scale(1.1);
+}
+
+.daftarButton {
+  padding: 15px 25px;
+  border-radius: 100px;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.daftarButton:hover {
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+.dukung {
+  padding: 60px 0px;
+  background: linear-gradient(249deg, #59ffb9 -31.85%, #326cff 101.31%);
+  margin-top: 137px;
+}
+
+.dukung h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.marquee {
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.marqueeImg img {
+  width: 216px;
+  height: 94px;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 15px 25px;
 }
