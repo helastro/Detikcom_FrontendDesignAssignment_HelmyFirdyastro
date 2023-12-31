@@ -8,7 +8,6 @@ body {
 
 header {
   background-image: url("/public/assets/images/bg-desktop.png");
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -124,7 +123,7 @@ nav .image img {
 }
 
 .cardKanan .card img {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .cardKanan .card:hover img {
@@ -166,7 +165,7 @@ nav .image img {
 }
 
 .cardKiri .cardSpesial img {
-  transition: transform 0.3 ease;
+  transition: transform 0.5s ease;
 }
 
 .cardKiri .cardSpesial:hover img {
