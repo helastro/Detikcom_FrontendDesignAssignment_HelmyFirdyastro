@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url("/public/assets/images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  top: 46px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1194px;
+  padding: 15px 20px;
+  box-shadow: 0px 1px 8px 0px rgba(29, 28, 28, 0.2);
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
+  justify-content: space-between;
+}
+
+.content ul {
+  gap: 30px;
+}
+
+.content ul li {
+  cursor: pointer;
+  color: #212427;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content ul a {
+  color: #212427;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.registration {
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: background 0.25s;
+}
+
+.registration:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.logo-container {
+  margin-bottom: 57px;
+  margin-top: 283px;
+}
+
+.logo {
+  width: 1080px;
+  height: aut;
+  margin-left: 123px;
+  flex-shrink: 0;
+}
+
+.tentang {
+  padding: 15px 25px;
+  border-radius: 100px;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  border: #ffc73c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 123px;
+  width: 195px;
+  transition: background 0.25s;
+}
+
+.tentang:hover {
+  border-radius: 100px;
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+nav .image img {
+  width: 200px;
+  height: 40px;
+  margin-left: 35px;
+}
