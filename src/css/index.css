@@ -23,6 +23,7 @@ nav {
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(25px);
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .content ul {
@@ -101,4 +102,40 @@ nav .image img {
   width: 200px;
   height: 40px;
   margin-left: 35px;
+}
+
+.daftar {
+  width: 1200px;
+  height: 712px;
+  margin: 137px 123px;
+}
+
+.cardKanan .card {
+  padding: 32px;
+  gap: 30px;
+  border-radius: 32px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  width: 550px;
+  height: 611px;
+  transition: background 0.25s;
+}
+
+.cardKanan .card:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.cardKanan .card img {
+  transition: transform 0.3s ease;
+}
+
+.cardKanan .card:hover img {
+  transform: scale(1.1);
+}
+
+.cardKanan h3 {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
