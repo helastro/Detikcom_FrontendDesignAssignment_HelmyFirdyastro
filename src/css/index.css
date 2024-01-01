@@ -1,0 +1,469 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url("/public/assets/images/bg-desktop.png");
+  background-size: cover;
+}
+
+nav {
+  top: 46px;
+  width: 1194px;
+  padding: 15px 20px;
+  box-shadow: 0px 1px 8px 0px rgba(29, 28, 28, 0.2);
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.content ul {
+  gap: 30px;
+}
+
+.content ul li {
+  cursor: pointer;
+  color: #212427;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content ul a {
+  color: #212427;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero {
+  width: 1194px;
+}
+
+.registration {
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: var(--primary-gradient, linear-gradient(258deg, #59ffb9 0%, #326cff 100%));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: background 0.25s;
+}
+
+.registration:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.logo-container {
+  margin-bottom: 57px;
+  margin-top: 283px;
+}
+
+.logo {
+  width: 686px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.tentang {
+  padding: 15px 25px;
+  border-radius: 100px;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  border: #ffc73c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 195px;
+  transition: background 0.25s;
+}
+
+.tentang:hover {
+  border-radius: 100px;
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+nav .image img {
+  width: 200px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.daftar {
+  width: 1194px;
+  height: 612px;
+  margin-top: 190px;
+}
+
+.cardKiri .card {
+  padding: 32px;
+  gap: 15px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  width: 582px;
+  height: 611px;
+  margin-right: -20px;
+  transition: background 0.25s;
+}
+
+.cardKiri .card:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.cardKiri .card img {
+  transition: transform 0.5s ease;
+}
+
+.cardKiri .card:hover img {
+  transform: scale(1.1);
+}
+
+.cardKiri h3 {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardKanan .gratisCard {
+  width: 582px;
+  padding: 32px;
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+  margin-bottom: 27px;
+}
+
+.cardKanan .gratisCard:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.cardKanan .cardTitle {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.cardKanan .cardSpesial {
+  background: linear-gradient(237deg, #59ffb9 -30.09%, #326cff 71.21%);
+}
+
+.cardKanan .cardSpesial:hover {
+  background: var(--primary-gradient, linear-gradient(258deg, #326cff 0%, #59ffb9 100%));
+}
+
+.cardKanan .cardSpesial img {
+  transition: transform 0.5s ease;
+}
+
+.cardKanan .cardSpesial:hover img {
+  transform: scale(1.1);
+}
+
+.daftarButton {
+  padding: 15px 25px;
+  border-radius: 100px;
+  background: #ffc73c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 190px;
+}
+
+.daftarButton:hover {
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+.dukung {
+  padding: 60px 0px;
+  background: linear-gradient(249deg, #59ffb9 -31.85%, #326cff 101.31%);
+}
+
+.dukung h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.marquee {
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.marqueeImg img {
+  width: 216px;
+  height: 94px;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.carousel {
+  width: 1060px;
+  height: 850px;
+  margin-top: 150px;
+}
+
+.carousel h3 {
+  color: #212427;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.carousel img {
+  width: 100%;
+  display: block;
+}
+
+.carousel .arrow {
+  position: absolute;
+  top: 50%;
+  padding: 0 13px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.carousel .leftArrow {
+  left: 20px;
+  color: #000;
+}
+
+.carousel .rightArrow {
+  right: 20px;
+  color: #000;
+}
+
+.carousel .imgShowcase {
+  border-radius: 32px;
+  transition: all 0.5s ease;
+}
+
+.carousel .imgItem img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.carousel .imgItem.active img {
+  filter: grayscale(0%);
+}
+
+.carousel .imgItem:nth-child(1),
+.imgItem:nth-child(2),
+.imgItem:nth-child(3) {
+  margin-right: 0;
+}
+
+.carousel .imgItem:hover {
+  opacity: 0.8;
+}
+
+.articleWrapper {
+  background-image: url("/public/assets/images/bg-2.png");
+  background-position: center;
+}
+
+.article {
+  margin: 150px 0 400px 0;
+  height: 1060px;
+}
+
+.article h3 {
+  color: #212427;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.article .articleButtonTop {
+  margin-top: 54px;
+  width: 350px;
+  border-radius: 100px;
+  background: linear-gradient(239deg, #59ffb9 -37.86%, #326cff 92.79%);
+  backdrop-filter: blur(25px);
+}
+
+.article .contentArticleTop {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.articleIsi {
+  width: 1194px;
+  height: 770px;
+  margin-top: 50px;
+}
+
+.carticleIsi .cardArticle {
+  width: 380px;
+  height: 360px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.articleIsi .cardArticle .articleImg {
+  width: 380px;
+  height: 282px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.articleIsi .cardArticle img {
+  transition: transform 0.3s ease;
+}
+
+.articleIsi .cardArticle:hover img {
+  transform: scale(1.1);
+}
+
+.articleIsi .cardArticle h5 {
+  color: #212427;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  width: 380px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.articleIsi .cardArticle:hover h5 {
+  color: #ffc73c;
+}
+
+.articleIsi .cardArticle p {
+  color: #6c6c6c;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.btnLihat {
+  padding: 15px 25px;
+  background: #ffc73c;
+  margin-top: 25px;
+}
+
+.btnLihat a {
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  font-size: 16px;
+}
+
+.btnLihat:hover {
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+footer {
+  gap: 30px;
+  background-color: #28a997;
+}
+
+.footerIsi {
+  margin: 50px 450px;
+  margin-bottom: 0;
+}
+
+.logoFooter {
+  height: 154px;
+  width: 353px;
+}
+
+.footerIsi h1 {
+  width: 353px;
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.footerIsi .present {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.footerIsi .detik {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footerIsi .health {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footerAbout .aboutKiri {
+  width: 890px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.footerAbout .aboutKanan {
+  height: 60px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.footerAbout .aboutKanan p {
+  width: 190px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.06px;
+}
+
+.footerAbout .aboutKanan img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.footerIsi hr {
+  width: 1250px;
+  height: 1px;
+  background: #fff;
+  border: #fff;
+  margin-top: 15px;
+}
+
+.footerIsi .footerBottom {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  align-self: stretch;
+  letter-spacing: 0.08px;
+  margin-top: 5px;
+}
