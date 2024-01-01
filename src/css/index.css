@@ -372,3 +372,15 @@ nav .image img {
   font-weight: 500;
   margin-top: 10px;
 }
+
+.btnLihat {
+  padding: 15px 25px;
+  background: #ffc73c;
+
+  margin-top: 25px;
+}
+
+.btnLihat a {
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+  font-size: 16px;
+}
