@@ -282,20 +282,17 @@ nav .image img {
 }
 
 .articleWrapper {
-  background-image: url("/public/assets/images/bg-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/public/assets/images/bg-2.png");
+  background-position: center;
 }
 
 .article {
   margin: 150px 370px 400px 400px;
-  width: 1194px;
   height: 1060px;
 }
 
 .article h3 {
   color: #212427;
-  text-align: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -309,7 +306,6 @@ nav .image img {
 }
 
 .article .contentArticleTop {
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -376,11 +372,97 @@ nav .image img {
 .btnLihat {
   padding: 15px 25px;
   background: #ffc73c;
-
   margin-top: 25px;
 }
 
 .btnLihat a {
   box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
   font-size: 16px;
+}
+
+.btnLihat:hover {
+  background: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px rgba(255, 154, 60, 0.25);
+}
+
+footer {
+  gap: 30px;
+  background-color: #28a997;
+}
+
+.footerIsi {
+  margin: 50px 450px;
+  margin-bottom: 0;
+}
+
+.logoFooter {
+  height: 154px;
+  width: 353px;
+}
+
+.footerIsi h1 {
+  width: 353px;
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.footerIsi .present {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.footerIsi .detik {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footerIsi .health {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footerAbout .aboutKiri {
+  width: 890px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.footerAbout .aboutKanan {
+  height: 60px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.footerAbout .aboutKanan p {
+  width: 190px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.06px;
+}
+
+.footerAbout .aboutKanan img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.footerIsi hr {
+  width: 1250px;
+  height: 1px;
+  background: #fff;
+  border: #fff;
+  margin-top: 15px;
+}
+
+.footerIsi .footerBottom {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  align-self: stretch;
+  letter-spacing: 0.08px;
+  margin-top: 5px;
 }
