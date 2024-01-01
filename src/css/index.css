@@ -105,8 +105,7 @@ nav .image img {
 .daftar {
   width: 1194px;
   height: 612px;
-  margin: 137px 450px;
-  margin-bottom: 0px;
+  margin-top: 190px;
 }
 
 .cardKiri .card {
@@ -180,6 +179,7 @@ nav .image img {
   box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
   font-weight: 700;
   margin-top: 50px;
+  margin-bottom: 190px;
 }
 
 .daftarButton:hover {
@@ -190,7 +190,6 @@ nav .image img {
 .dukung {
   padding: 60px 0px;
   background: linear-gradient(249deg, #59ffb9 -31.85%, #326cff 101.31%);
-  margin-top: 137px;
 }
 
 .dukung h3 {
@@ -217,7 +216,7 @@ nav .image img {
 .carousel {
   width: 1060px;
   height: 850px;
-  margin-top: 105px;
+  margin-top: 150px;
 }
 
 .carousel h3 {
@@ -280,4 +279,96 @@ nav .image img {
 
 .carousel .imgItem:hover {
   opacity: 0.8;
+}
+
+.articleWrapper {
+  background-image: url("/public/assets/images/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article {
+  margin: 150px 370px 400px 400px;
+  width: 1194px;
+  height: 1060px;
+}
+
+.article h3 {
+  color: #212427;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.article .articleButtonTop {
+  margin-top: 54px;
+  width: 350px;
+  border-radius: 100px;
+  background: linear-gradient(239deg, #59ffb9 -37.86%, #326cff 92.79%);
+  backdrop-filter: blur(25px);
+}
+
+.article .contentArticleTop {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.articleIsi {
+  width: 1200px;
+  height: 770px;
+  margin-top: 50px;
+}
+
+.carticleIsi .cardArticle {
+  width: 380px;
+  height: 360px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.articleIsi .cardArticle .articleImg {
+  width: 380px;
+  height: 282px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.articleIsi .cardArticle img {
+  transition: transform 0.3s ease;
+}
+
+.articleIsi .cardArticle:hover img {
+  transform: scale(1.1);
+}
+
+.articleIsi .cardArticle h5 {
+  color: #212427;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  width: 380px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.articleIsi .cardArticle:hover h5 {
+  color: #ffc73c;
+}
+
+.articleIsi .cardArticle p {
+  color: #6c6c6c;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 10px;
 }
