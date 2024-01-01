@@ -213,3 +213,71 @@ nav .image img {
   border-radius: 10px;
   padding: 15px 25px;
 }
+
+.carousel {
+  width: 1060px;
+  height: 850px;
+  margin-top: 105px;
+}
+
+.carousel h3 {
+  color: #212427;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.carousel img {
+  width: 100%;
+  display: block;
+}
+
+.carousel .arrow {
+  position: absolute;
+  top: 50%;
+  padding: 0 13px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.carousel .leftArrow {
+  left: 20px;
+  color: #000;
+}
+
+.carousel .rightArrow {
+  right: 20px;
+  color: #000;
+}
+
+.carousel .imgShowcase {
+  border-radius: 32px;
+  transition: all 0.5s ease;
+}
+
+.carousel .imgItem img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.carousel .imgItem.active img {
+  filter: grayscale(0%);
+}
+
+.carousel .imgItem:nth-child(1),
+.imgItem:nth-child(2),
+.imgItem:nth-child(3) {
+  margin-right: 0;
+}
+
+.carousel .imgItem:hover {
+  opacity: 0.8;
+}
